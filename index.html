@@ -5,20 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Add any additional styles here */
+        .hidden {
+            display: none;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>About Oscar Sepp</h1>
+        <h1>Oscar Sepp</h1>
     </header>
     <main>
         <section id="about">
             <h2>About Me</h2>
-            <p>This is where you can write a brief introduction about yourself.</p>
+            <p>Hi! My name is Oscar Sepp. I have a passion for making programming simulations, be it physics for the visual effect or games to
+                 find the best strategy and automation of tasks which are repetitive. I graduated from Lund University with a bachelor in physics where I mainly learnt physics, math,
+                 data analysis and programming (python). 
+            </p>
         </section>
         <section id="projects">
             <h2>Projects</h2>
             <p>Here you can list some of the projects you have done over the years.</p>
+            <h2>Vicious Walker</h2>
+            <button onclick="togglePDF()">Show/Hide PDF</button>
+            <iframe id="pdfFrame" src="Projects/Vicious walker/FYTN03_Vicious_walker Oscar Sepp.pdf" width="100%" height="600px">
+                This browser does not support PDFs. Please download the PDF to view it: <a href="Projects/Vicious walker/FYTN03_Vicious_walker Oscar Sepp.pdf">Download PDF</a>.
+            </iframe>
         </section>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
