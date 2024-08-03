@@ -58,12 +58,11 @@ p {
     display: none;
 }
 
-/* Style for the toggle button */
 button {
     background-color: #333;
     color: #fff;
     border: none;
-    padding: 5px 10px;
+    padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
@@ -81,7 +80,7 @@ ul.project-list {
     padding: 0;
 }
 
-ul.project-list li {
+li {
     margin-bottom: 20px;
     padding: 10px;
     border: 1px solid #ddd;
@@ -89,34 +88,18 @@ ul.project-list li {
     background-color: #f9f9f9;
 }
 
-ul.project-list li h3 {
+li h3 {
     margin: 0 0 10px;
     font-size: 20px;
     color: #333;
 }
 
-ul.project-list li p {
+li p {
     margin: 0 0 10px;
     color: #666;
 }
 
-ul.project-list li button {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
-    margin-top: 10px;
-}
-
-ul.project-list li button:hover {
-    background-color: #555;
-}
-
-ul.project-list li iframe {
+li iframe {
     width: 100%;
     height: 600px;
     border: none;
