@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <title>Oscar Sepp</title>
     <link rel="stylesheet" href="style.css">
     <style>
         /* Add any additional styles here */
@@ -26,12 +26,27 @@
         </section>
         <section id="projects">
             <h2>Projects</h2>
-            <p>Here you can list some of the projects you have done over the years.</p>
-            <h2>Vicious Walker</h2>
-            <button onclick="togglePDF()">Show/Hide PDF</button>
-            <iframe id="pdfFrame" src="Projects/Vicious walker/FYTN03_Vicious_walker Oscar Sepp.pdf" width="100%" height="600px">
-                This browser does not support PDFs. Please download the PDF to view it: <a href="Projects/Vicious walker/FYTN03_Vicious_walker Oscar Sepp.pdf">Download PDF</a>.
-            </iframe>
+            <p>Below are some of my projects which I have done over the years.
+            </p>
+            <ul class="project-list">
+                <li>
+                    <h2>
+                        Vicious Walker
+                    </h2>
+                    <p>
+                        The vicious walker is a simple model for chemical reactions as these processes require molecules to meet and react.
+                        This model contains walker in a n dimensional space on a grid and they move
+                        every time step in a random direction. When they meet they annihilate. In this project 
+                        I have studied the time frame of these reaction as well as what I have called a friendly
+                        walker.
+                    </p>
+                    <button onclick="togglePDF()">Show/Hide PDF</button>
+                    <iframe id="pdfFrame" src="Projects/Vicious walker/FYTN03_Vicious_walker Oscar Sepp.pdf" width="100%" height="600px" class="hidden">
+                        This browser does not support PDFs. Please download the PDF to view it: <a href="Projects/Vicious walker/FYTN03_Vicious_walker Oscar Sepp.pdf">Download PDF</a>.
+                    </iframe>
+                </li>
+                <!-- Add more project items here -->
+            </ul>
         </section>
     </main>
     <script src="script.js"></script>

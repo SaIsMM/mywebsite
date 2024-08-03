@@ -52,3 +52,26 @@ p {
 #projects {
     margin-top: 20px;
 }
+
+/* Add any additional styles here */
+.hidden {
+    display: none;
+}
+
+/* Style for the toggle button */
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
